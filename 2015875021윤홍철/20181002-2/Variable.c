@@ -52,14 +52,15 @@ int main() {
 	printf("program end!!!!!!!!!!!!\n");
 	printf("c=%d\n",c);	
 
-	if (a==10) {
+	if (a == 10) 
 		printf("a is ten\n");
-	}
-	else if (a==20) {
+	else if (a == 20) {
 		printf("a is twenty\n");
+	}
 	else
 		printf("a is not ten or twenty\n");
-	}
+	
+	
 	//조건문 끝
 	printf("program end!!!!!!!!!!!!\n");
 	printf("c=%d\n",c);	

@@ -1,11 +1,2 @@
-﻿빌드 시작: 2018-10-02 오후 5:43:17
-     1>2 노드의 "C:\Users\216-34\Documents\2015875021윤홍철\2015875021윤홍철\20181002-2\20181002-2.vcxproj" 프로젝트(Build 대상)입니다.
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt Variable.c
-         Variable.c
-     1>c:\users\216-34\documents\2015875021윤홍철\2015875021윤홍철\20181002-2\variable.c(60): error C2181: if와 짝을 이루지 않는 잘못된 else문입니다.
-     1>"C:\Users\216-34\Documents\2015875021윤홍철\2015875021윤홍철\20181002-2\20181002-2.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
-
-빌드하지 못했습니다.
-
-경과 시간: 00:00:00.25
+﻿  Variable.c
+  20181002-2.vcxproj -> C:\Users\Y\Documents\2018-2\C프로그래밍\2015875021윤홍철\Debug\20181002-2.exe
