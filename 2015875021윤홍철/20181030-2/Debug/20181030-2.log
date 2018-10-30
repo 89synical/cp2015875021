@@ -1,0 +1,5 @@
+﻿  ArrayFunction.c
+c:\users\y\documents\2018-2\c프로그래밍\2015875021윤홍철\20181030-2\arrayfunction.c(28): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+c:\users\y\documents\2018-2\c프로그래밍\2015875021윤홍철\20181030-2\arrayfunction.c(28): warning C4024: 'addArray': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+c:\users\y\documents\2018-2\c프로그래밍\2015875021윤홍철\20181030-2\arrayfunction.c(26): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  20181030-2.vcxproj -> C:\Users\Y\Documents\2018-2\C프로그래밍\2015875021윤홍철\Debug\20181030-2.exe
