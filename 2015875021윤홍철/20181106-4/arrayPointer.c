@@ -16,5 +16,7 @@ int main(void) {
 	printf("a[0]=%d\n", a[0]);
 	printf("a[0]=%d\n", *ptr);
 	printArray(a, 3);
+	//a = ptr; error WHY? 배열의 이름(a)은 값만 가지고 있다. 즉 rvalue이다.
+	//10 = a[2]; 위와 같은 이유로 error
 	return 0;
 }
