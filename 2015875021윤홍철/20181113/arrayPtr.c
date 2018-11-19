@@ -5,8 +5,10 @@
 int findMinIndex(int *arr, int len) {
 	int minIndex = 0, i, min = arr[0];
 	for (i = 1; i < len; i++) {
-		if (min > arr[i])
+		if (min > arr[i]) {
 			minIndex = i;
+			min = arr[i];
+		}
 	}
 	return minIndex;
 }
@@ -32,6 +34,7 @@ void printArray(int *arr, int len) {
 	int i;
 	for (i = 0; i < len; i++)
 		printf("%d ", arr[i]);
+		printf("\n");
 }
 //함수 : selectionSort()
 //입력 : 배열
@@ -40,15 +43,15 @@ void printArray(int *arr, int len) {
 void selectionSort(int* arr, int len) {
 	int i, j;
 	for (i = 0; i < len; i++) {
-		j = findMinIndex(arr+i, len-i);
-		swapElement(arr, i, j);
+		j = findMinIndex(arr + i, len - i);
+		swapElement(arr + i, 0, j);
 	}
 }
 int main() {
 	int a[] = { 30, 35, 27, 15, 40 };
 	printf("minimum value of the array is %d\n",findMin(a, 5));
 	printf("The index of the minimum value is %d\n", findMinIndex(a, 5));
-	swapElement(a, 0, 3);
+	//swapElement(a, 0, 3);
 	selectionSort(a, 5);
 	printArray(a, 5);
 	return 0;
