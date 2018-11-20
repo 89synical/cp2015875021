@@ -1,0 +1,5 @@
+﻿  char.c
+c:\users\y\documents\2018-2\c프로그래밍\2015875021윤홍철\20181120-2\char.c(21): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 'strcat' 선언을 참조하십시오.
+c:\users\y\documents\2018-2\c프로그래밍\2015875021윤홍철\20181120-2\char.c(23): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
