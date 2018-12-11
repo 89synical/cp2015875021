@@ -1,2 +1,4 @@
 ﻿  LinkedList.c
+c:\users\y\documents\2018-2\c프로그래밍\2015875021윤홍철\20181204-2\linkedlist.c(19): warning C4101: 'average' :참조되지 않은 지역 변수입니다.
+c:\users\y\documents\2018-2\c프로그래밍\2015875021윤홍철\20181204-2\linkedlist.c(58): warning C4715: 'returnTail': 모든 제어 경로에서 값을 반환하지는 않습니다.
   20181204-2.vcxproj -> C:\Users\Y\Documents\2018-2\C프로그래밍\2015875021윤홍철\Debug\20181204-2.exe
